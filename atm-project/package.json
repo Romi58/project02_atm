@@ -1,0 +1,26 @@
+{
+  "name": "atm-project",
+  "version": "1.0.0",
+  "description": "Console-based ATM application using TypeScript, Node.js, and Inquirer",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "atm",
+    "typescript",
+    "nodejs",
+    "inquirer"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^16.11.16",
+    "typescript": "^4.5.4"
+  }
+}
